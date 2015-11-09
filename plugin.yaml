@@ -49,7 +49,7 @@ node_types:
                 TLS
               default:
                 base_url: tcp://localhost:2375
-                version: 1.19
+                version: '1.19'
                 timeout: 60
                 tls: false
         start:
@@ -82,7 +82,7 @@ node_types:
                 TLS
               default:
                 base_url: tcp://localhost:2375
-                version: 1.19
+                version: '1.19'
                 timeout: 60
                 tls: false
         stop:
@@ -108,7 +108,7 @@ node_types:
                 TLS
               default:
                 base_url: tcp://localhost:2375
-                version: 1.19
+                version: '1.19'
                 timeout: 60
                 tls: false
         delete:
@@ -128,6 +128,6 @@ node_types:
                 TLS
               default:
                 base_url: tcp://localhost:2375
-                version: 1.19
+                version: '1.19'
                 timeout: 60
                 tls: false
